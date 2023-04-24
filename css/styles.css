@@ -2,11 +2,11 @@
 
 /*  Fonts */
 
-@font-face {
+/* @font-face {
   font-family: "Bitmap";
   
     src:url(../src/fonts/Bitmap/PPNeueBit-Bold.otf) format("opentype");
-}
+} */
 
 /* General CSS Rules */
 
@@ -41,7 +41,8 @@ html, body {
   background-color: var(--firstColor);
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: "Bitmap";
+ /* font-family: "Bitmap";*/
+  font-family: 'VT323', monospace;
   font-size: 16px;
   cursor: url("../img/cursor/iconmonstr.png"), auto;
   /* transition: background-color 2s ease-out; */
@@ -63,6 +64,9 @@ html, body {
 }
 
 /* Custom Font Style Classes */
+a{
+  text-decoration: none;
+}
 
 .underlined {
   border-bottom: 0.25vw solid;
@@ -147,7 +151,8 @@ background: linear-gradient( var(--firstColor) 31.76%, rgba(244, 244, 244, 0))
   -webkit-user-select: none;
   touch-action: manipulation;
   color:var(--thirdColor);
-  font-family: "Bitmap";
+  /*font-family: "Bitmap";*/
+  font-family: 'VT323', monospace;
   font-size: 26px;
 }
 
@@ -497,7 +502,8 @@ box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.38);
   border-radius: 17px;
 }
 h3{
-  font-family: "Bitmap";
+  /*font-family: "Bitmap";*/
+  font-family: 'VT323', monospace;
   color: var(--fifthColor);
   font-size: 3rem;
 }
